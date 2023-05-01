@@ -1,0 +1,75 @@
+/*About Section*/
+.about {
+    background-color: #f8f8f8;
+    padding: 100px 0;
+  }
+  
+  .about .container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .about .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .about-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin-right: 30px;
+  }
+  
+  .about-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .about-text {
+    max-width: 500px;
+  }
+  
+  .about-text h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .about-text p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  .about-text button {
+    background-color: #f39c12;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .about-text button:hover {
+    background-color: #e6920a;
+  }
+  
+  @media (max-width: 768px) {
+    .about .row {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .about-image {
+      margin-right: 0;
+      margin-bottom: 30px;
+    }
+    
+    .about-text {
+      max-width: none;
+      text-align: center;
+    }
+  }
